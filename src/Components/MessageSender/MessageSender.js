@@ -16,9 +16,9 @@ const MessageSender = () => {
     }
   }
 
-  const handleSubmit = () => {
-    console.log('Submitting');
-  }
+  // const handleSubmit = () => {
+  //   console.log('Submitting');
+  // }
 
   return (
     <div className="messageSender">
@@ -32,12 +32,12 @@ const MessageSender = () => {
             value={input}
             onChange={(e) => setInput(e.target.value)}
           />
-          <Input
+          {/* <Input
             type="file"
             className="messageSender__fileSelector"
             onChange={handleChange}
-          />
-          <button onClick={handleSubmit} type='submit'>Hidden Submit</button>
+          /> */}
+          {/* <button onClick={handleSubmit} type='submit'>Hidden Submit</button> */}
         </form>
       </div>
       <div className="messageSender__bottom">

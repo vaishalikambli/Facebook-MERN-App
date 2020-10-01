@@ -10,7 +10,7 @@ import AddIcon from "@material-ui/icons/Add";
 import NotificationsActiveIcon from "@material-ui/icons/NotificationsActive";
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
 import { Avatar, IconButton } from "@material-ui/core";
-import "./Header.css";
+import "../Header/Header.css";
 
 const Header = () => {
   return (

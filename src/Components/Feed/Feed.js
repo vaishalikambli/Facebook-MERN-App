@@ -1,7 +1,9 @@
 import React from "react";
-import Storyreel from "./Storyreel";
-import MessageSender from "./MessageSender";
-import Post from "./Post";
+
+import "../Feed/Feed.css";
+import Storyreel from "../Storyreel/Storyreel";
+import MessageSender from "../MessageSender/MessageSender";
+import Post from "../Post/Post";
 
 const Feed = () => {
   return (
